@@ -1,0 +1,72 @@
+#head {
+    color: rgb(4, 117, 91);
+    text-align: center;
+}
+
+#add {
+    color: black;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#clock {
+    height: 20px;;
+}
+
+.check {
+    color: black;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.delete {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+input {
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#input {
+    background-color: yellow;
+    padding: 20px;
+    margin: auto;
+}
+
+.elementsCreate {
+    background-color: rgb(255, 204, 0);
+    font-size: 25px;
+    padding: 15 px;
+    margin: 20px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.edit {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.text {
+    float: left;
+    margin-right: 50px;
+}
+
+.inputEdit {
+    float: left;
+}
