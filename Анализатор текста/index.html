@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Анализатор вводимого текста</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            .vision {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <textarea id="text" width="200" height="200"></textarea>
+        <br><br>
+        <p id="result">Количество введенных слов: </p>
+        <div> Показать скрыть Количество введенных слов<input id="checkResult" type="checkbox"></div>
+
+        <p id="symbol">Количество символов: </p>
+        <div> Показать скрыть Количество символов <input id="checkSymbol" type="checkbox"></div>
+    
+        <p id="withoutSpace">Количество символов без пробелов (букв): </p>
+        <div> Показать скрыть Количество символов без пробелов (букв)<input id="checkWithoutSpace" type="checkbox"></div>
+        
+        <p id="procent">Процентное содержание символов в тексте: </p>
+        <div> Показать скрыть Процент символов<input id="checkProcent" type="checkbox"></div>
+
+        <script src="code.js"></script>
+    </body>
+</html>
