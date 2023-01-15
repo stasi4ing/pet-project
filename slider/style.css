@@ -1,0 +1,34 @@
+body {
+    background-color: #ffc0cb;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+#slider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left {
+    padding: 5px;
+    border: black 2px solid;
+    font-size: larger;
+}
+
+#right {
+    padding: 5px;
+    border: black 2px solid;
+    font-size: larger;
+}
+
+div {
+    padding: 20px;
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+}   
