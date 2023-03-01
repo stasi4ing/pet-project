@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(242, 234, 229);
+}
+
+h2 {
+    text-align: center;
+}
+
+#part {
+    display: inline-block;
+}
+
+#res {
+    display: inline-block;
+}
+
+button {
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
